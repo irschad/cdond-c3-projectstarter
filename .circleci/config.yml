@@ -6,7 +6,7 @@ orbs:
 
 commands:
   auto-destruct-env:
-    description: Destroy the entire infrastructure
+    description: Destroy the frontend and backend infra
     steps:
       - run:
           name: Delete all files from the current S3 bucket
